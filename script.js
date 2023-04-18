@@ -33,7 +33,7 @@ function locomotive() {
   locomotive();
   
   
-  const canvas = document.querySelector("canvas");
+  const canvas = document.querySelector("#keyboard_canvas");
   const context = canvas.getContext("2d");
   
   canvas.width = window.innerWidth;
